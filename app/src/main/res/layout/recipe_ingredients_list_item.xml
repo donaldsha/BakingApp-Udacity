@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp"
+        android:layout_marginStart="@dimen/margin_s"
+        android:layout_marginBottom="@dimen/margin_s"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginLeft="@dimen/margin_s">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingredients_text"
+            android:layout_marginBottom="@dimen/margin_l"
+            android:layout_marginEnd="@dimen/margin_l"
+            android:layout_marginLeft="@dimen/margin_l"
+            android:layout_marginRight="@dimen/margin_l"
+            android:layout_marginStart="@dimen/margin_l"
+            tools:text= "Ingredients"
+            android:textSize="@dimen/text_l"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="79dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_text"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:paddingTop="@dimen/margin_m"
+        android:paddingBottom="@dimen/margin_m"
+        android:paddingRight="@dimen/margin_l"
+        android:paddingStart="@dimen/margin_xl"
+        android:paddingEnd="@dimen/margin_l"
+        android:paddingLeft="@dimen/margin_xl"
+        android:text="@string/ingredients"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_xl"
+        android:background="@drawable/round_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

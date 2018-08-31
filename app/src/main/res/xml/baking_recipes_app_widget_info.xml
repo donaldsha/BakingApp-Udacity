@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="120dp"
+    android:minHeight="120dp"
+    android:initialLayout="@layout/baking_recipes_app_widget"
+    android:updatePeriodMillis="86400000"
+    android:previewImage="@drawable/appwidget_pic"
+    android:resizeMode="horizontal|vertical"/>

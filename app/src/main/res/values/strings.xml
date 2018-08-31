@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <!--Internet connection strings -->
+    <string name="no_internet">No internet connection</string>
+    <string name="data_not_available">Data not available for this recipe.</string>
+    <string name="load_data_fail">Failed to fetch recipe data from internet.</string>
+    <string name="load_data_fail_recipe">Failed to load recipe data.</string>
+
+    <!-- recipe data-->
+    <string name="recipe_image">Recipe image</string>
+    <string name="title_recipe_step_details">Recipe Step details</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="servings">Servings: %d</string>
+    <string name="recipe_intro">Recipe Intro</string>
+
+    <string name="add_to_widget">Add to widget.</string>
+    <string name="added_to_widget">Recipe %s added to widget</string>
+    <string name="widget_recipe_key">widget_recipe_key</string>
+    <string name="step">Step: %d</string>
+
+</resources>
